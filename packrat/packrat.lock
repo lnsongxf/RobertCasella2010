@@ -8,6 +8,34 @@ Repos: CRAN=http://cran.rstudio.com,
     BioCexp=http://bioconductor.org/packages/2.14/data/experiment,
     BioCextra=http://bioconductor.org/packages/2.14/extra
 
+Package: car
+Source: CRAN
+Version: 2.0-21
+Hash: 2c8213a71f5ef3514f22e6e7a52ebd19
+Requires: MASS
+
+Package: coda
+Source: CRAN
+Version: 0.16-1
+Hash: 8bdc942ab0d8cba20f6ed4b870569ef4
+Requires: lattice
+
+Package: lattice
+Source: CRAN
+Version: 0.20-29
+Hash: 17e9fe582d11197544a5ec817a80b21e
+
+Package: MASS
+Source: CRAN
+Version: 7.3-35
+Hash: 2a7641e407ce2a484d5a587a4e30a9aa
+
+Package: mcsm
+Source: CRAN
+Version: 1.0
+Hash: 370d648211fead5e8f709215eea5c499
+Requires: coda, MASS
+
 Package: packrat
 Source: CRAN
 Version: 0.4.1-1
